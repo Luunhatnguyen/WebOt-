@@ -1,0 +1,151 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+/* CSS nav */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul > li > a {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 10px;
+    display: block;
+}
+header{
+    display: flex;
+}
+nav{
+    margin-left: auto;
+}
+/* CSS banner */
+section.banner {
+    /* animation: doinen ease 8s infinite; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+section.banner img {
+    /* visibility: hidden; */
+    width: 100%;
+}
+/* @keyframes doinen {
+    0% {
+        background-image: url(../images/mec4.webp);
+    }
+    30% {
+        background-image: url(../images/mec.jpg);
+    }
+    70% {
+        background-image: url(../images/mec2.jpg);
+    }
+} */
+/* CSS subject */
+section.subject{
+    background-color: yellow;
+    padding: 10px;
+    color: wheat;
+    text-align: center;
+}
+section.subject h1 {
+    text-shadow: 3px 4px 4px red;
+}
+/* CSS introduce */
+section.introduce {
+    background-color: lightgray;
+    color: gray;
+    text-align: center;
+    padding: 15px 20px;
+}
+section.introduce  p {
+    margin-top: 50px;
+}
+h1 {
+    font-size: 3vw;
+}
+h1.underline::after {
+    content: " ";
+    width: 5%;
+    height: 5px;
+    background-color: gray;
+    display: block;
+    margin: 10px auto;
+}
+div.items { 
+    display: flex;
+    
+}
+div.item {
+    width: 25%;
+    padding: 10px;
+    
+}
+div.item >div {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+div.item >div:hover {
+    box-shadow: 4px 5px 3px gray;
+}
+div.item img {
+    max-width: 100%;
+}
+div.item h4, p {
+    text-align: center;
+}
+section.introduce2{
+    background-color: lightgray;
+}
+
+/* CSS product */
+section.product {
+    background-color: lightgray;
+    color: gray;
+    text-align: center;
+}
+div.prods {
+    display: flex;
+    flex-wrap: wrap;
+}
+div.prod {
+    width: 33.33%;
+}
+div.prod img {
+    max-width: 100%;
+}
+/* CSS stats */
+section.stats {
+    display: flex;
+    background-color: black;
+    color:wheat;
+    text-align: center;
+}
+section.stats h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div.stat {
+    width: 25%;
+}
+
+/* CSS event  */
+div.evts {
+    display: flex;
+}
+div.evt {
+    width: 24%;
+    padding: 10px;
+}
+div.evt iframe{
+    width: 100%;
+}
+h1.underline {
+    text-align: center;
+}
